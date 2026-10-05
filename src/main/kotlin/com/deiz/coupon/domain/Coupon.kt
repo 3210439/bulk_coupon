@@ -9,7 +9,7 @@ import jakarta.persistence.Table
 import java.time.LocalDateTime
 
 @Entity
-@Table(name = "coupons")
+@Table(name = "coupon")
 class Coupon(
     @Column(nullable = false, length = 80)
     var name: String,
