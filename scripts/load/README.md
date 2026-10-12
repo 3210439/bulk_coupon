@@ -12,7 +12,7 @@
 
 ```bash
 git checkout <branch>
-./gradlew --stop && ./gradlew jibDockerBuild && docker compose up -d
+./gradlew --stop; ./gradlew jibDockerBuild; docker compose up -d
 ```
 
 ## part-2
